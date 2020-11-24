@@ -1,4 +1,83 @@
-#e1_2 { 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+  --mainLogo: #7a1cf9;
+  --formButton: #a062f0;
+  --background: #252525;
+  --memberBackground: #492d6e; 
+  --text: #ffffff;
+}
+
+
+
+*{
+   box-sizing: border-box;
+   font-family: 'Open Sans', sans-serif;
+   color: var(--text)
+    
+}
+
+body{
+  background-color: var(--background); 
+}
+
+input{
+  background-color: var(--formButton);
+  color: var(--memberBackground);
+  height:40px;
+  margin: 15px 0;
+} 
+.modal-backdrop.fade.show{
+  background-color:var(--memberBackground);
+}
+.modal-content{
+  background-color: var(--memberBackground);
+  width: 450px;
+  height: 450px;
+}
+.modal-header{
+  border: none;
+}
+.modal-body{
+  border:none;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.modal-footer{
+  border: none;
+}
+
+
+
+  
+.button{
+  background-color: var(--formButton);
+  width: 220px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+
+}
+.card{
+  width: 320px;
+  height: 550px;
+  border-radius: 10px;
+  border: 3px solid var(--mainLogo);
+  box-shadow: 5px 10px 18px #000000;
+
+}
+
+.card-body{
+  border-radius: 10px;
+  /* border: 3px solid var(--mainLogo); */
+
+
+}
+
+
+
+  #e1_2 { 
 	position:relative;
 	background-color:rgba(37.00000159442425, 37.00000159442425, 37.00000159442425, 1);
 	opacity:1;
