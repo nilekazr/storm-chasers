@@ -5,8 +5,8 @@ const axios = require('axios');
 router.get('/', (req, res) => {
     let stormUrl = `https://api.weather.gov/alerts/active?area=TX`
     axios.get(stormUrl).then((apiResponse) => {
-        let features = apiResponse.data.features;       
-        let warnings = features.map((x) => x.properties.headline );
+        let features = apiResponse.data.features;
+        let warnings = features.map((x) => x.properties.headline);      
         res.render('index', {warnings: warnings});
     });
   });

@@ -78,11 +78,19 @@ input{
 
 
   #e1_2 { 
+
+body{
+  background-color:rgba(37.00000159442425, 37.00000159442425, 37.00000159442425, 1);
+}
+
+
+#e1_2 { 
 	position:relative;
 	background-color:rgba(37.00000159442425, 37.00000159442425, 37.00000159442425, 1);
 	opacity:1;
-	width:1440px;
-	height:1024px;
+	width:75%;
+  height:1024px;
+  margin: 0 auto;
 }
 #e15_3 { 
 	opacity:1;
@@ -90,8 +98,8 @@ input{
 	height:213px;
 	position:absolute;
 	left:0px;
-	top:-13px;
-	background-image:url(images/euntitled__3__2.png);
+	top:0px;
+	background-image:url(../assets/images/logo2.png);
 	background-repeat:no-repeat;
 }
 #e15_6 { 
@@ -230,7 +238,7 @@ input{
 	border-top-right-radius:10px;
 	border-bottom-left-radius:10px;
 	border-bottom-right-radius:10px;
-	background-image:url(images/erectangle_14.png);
+	background-image:url(../assets/images/map.png);
 	background-repeat:no-repeat;
 }
 #e54_22 { 
@@ -304,7 +312,7 @@ input{
 	border-top-right-radius:10px;
 	border-bottom-left-radius:10px;
 	border-bottom-right-radius:10px;
-	background-image:url(images/erectangle_14.png);
+	background-image:url(../assets/images/purple.png);
 	background-repeat:no-repeat;
 }
 #e54_24 { 
@@ -370,7 +378,7 @@ input{
 	border-top-right-radius:10px;
 	border-bottom-left-radius:10px;
 	border-bottom-right-radius:10px;
-	background-image:url(images/erectangle_14.png);
+	background-image:url(../assets/images/nado.png);
 	background-repeat:no-repeat;
 }
 #e54_28 { 
@@ -408,10 +416,10 @@ input{
 	opacity:1;
 	border:1px solid rgba(160.00000566244125, 98.00000175833702, 240.00000089406967, 1);
 	width:193px;
-	height:57px;
+  height:57px;
 	position:absolute;
 	left:162px;
-	top:263px;
+	top:280px;
 	border-top-left-radius:50px;
 	border-top-right-radius:50px;
 	border-bottom-left-radius:50px;
@@ -424,7 +432,7 @@ input{
 	height:20px;
 	position:absolute;
 	left:224px;
-	top:281px;
+	top:295px;
 	font-family:Almarai;
 	text-align:left;
 	font-size:18px;
@@ -448,7 +456,7 @@ input{
 #e54_31 { 
 	opacity:1;
 	width:924px;
-	height:193px;
+	height:220px;
 	position:absolute;
 	left:417px;
 	top:145px;
@@ -456,7 +464,11 @@ input{
 	border-top-right-radius:10px;
 	border-bottom-left-radius:10px;
 	border-bottom-right-radius:10px;
-	background-image:url(images/erectangle_20.png);
+	background-image:url(../assets/images/Screen\ Shot\ 2020-11-24\ at\ 11.05.17\ AM.png);
 	background-repeat:no-repeat;
 }
+}
+
+h4{
+  text-align: center;
 }
