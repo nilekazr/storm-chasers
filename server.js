@@ -15,12 +15,12 @@ app.use(express.static(__dirname + '/public'));
 app.use(layouts);
 
 app.use(session({
-  secret: process.env.SESSION_SECRET,
+  secret: "key",
   resave: false,
   saveUninitialized: true
 }));
-app.use(flash());
 
+app.use(flash());
 app.use(passport.initialize());
 app.use(passport.session());
 
@@ -41,6 +41,8 @@ app.get('/profile', isLoggedIn, (req, res) => {
 });
 
 app.use('/auth', require('./routes/auth'));
+app.use('/ ', require('./routes/landingpage'));
+app.use('/landingpage', require('./routes/dashboard'));
 
 var server = app.listen(process.env.PORT || 3000, ()=> console.log(`🎧You're listening to the smooth sounds of port ${process.env.PORT || 3000}🎧`));
 
