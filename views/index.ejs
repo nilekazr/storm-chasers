@@ -3,19 +3,23 @@
 
 <div id="e1_2">
     <div id="e15_3"></div>
-    <div id="e15_4"></div><span id="e15_5">Login</span>
-    <div id="e16_7"></div><span id="e16_8">Sign-up</span>
-    <div id="e15_9"></div><span id="e15_11">ACTIVE STORMS
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </span>
+    <div id="e15_4"></div><span id="e15_5"><a href="/auth/login">Login</a></span>
+    <div id="e16_7"></div><span id="e16_8"><a href="/auth/signup">Sign-up</a></span>
+    <div id="e15_9"></div><span id="e15_11"><h4>ACTIVE STORMS</h4>
+        <ul>
+        <% for (let i = 0; i < 2; i++) { %>
+            <li> <%- warnings[i] %> </li> <br/>
+            <% }; %>
+        </ul>
+  </span>
     <div id="e16_12"></div>
-    <div id="e15_7"></div><span id="e15_8">ABOUT 
-  STORM CHASERS
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </span>
+    <div id="e15_7"></div><span id="e15_8"><h4>ABOUT STORM CHASERS</h4> 
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p> </span>
     <div id="e16_18"></div>
-    <div id="e15_10"></div><span id="e15_12">STORM PHOTO GALLERY
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </span>
+    <div id="e15_10"></div><span id="e15_12"><h4>STORM PHOTO GALLERY</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </p> </span>
     <div id="e16_16"></div>
     <div id="e54_28"></div>
-    <div id="e54_25"></div><span id="e54_26">Join Us!</span><span id="e54_30">Every expert began as an amateur, begin the chase today</span>
+    <div id="e54_25"></div><span id="e54_26"><a href="/auth/signup">Join Us!</a></span><span id="e54_30">Every expert began as an amateur, begin the chase today</span>
     <div id="e54_31"></div>
   </div>
