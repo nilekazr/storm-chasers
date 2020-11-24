@@ -1,21 +1,21 @@
 {
   "development": {
-    "username":"####",
-    "password":"####",
+    "username":"nilekazr",
+    "password":"niledude9",
     "database": "stormchasers",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {
-    "username":"#####",
-    "password":"#####",
+    "username":"nilekazr",
+    "password":"niledude9",
     "database": "stormchasers",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "production": {
-    "username":"#####",
-    "password":"#####",
+    "username":"nilekazr",
+    "password":"niledude9",
     "database": "stormchasers",
     "host": "127.0.0.1",
     "dialect": "postgres"

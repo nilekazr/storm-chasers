@@ -1,12 +1,383 @@
-nav ul li {
-  text-decoration: none;
-  display: inline-block;
-  margin-right: .3em;
+#e1_2 { 
+	position:relative;
+	background-color:rgba(37.00000159442425, 37.00000159442425, 37.00000159442425, 1);
+	opacity:1;
+	width:1440px;
+	height:1024px;
 }
-
-h1 {
-  color: chartreuse;
+#e15_3 { 
+	opacity:1;
+	width:299px;
+	height:213px;
+	position:absolute;
+	left:0px;
+	top:-13px;
+	background-image:url(images/euntitled__3__2.png);
+	background-repeat:no-repeat;
 }
-body{
-  background-color: blueviolet;
+#e15_6 { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	opacity:1;
+	width:101px;
+	height:38px;
+	position:absolute;
+	left:1217px;
+	top:35px;
+}
+#e15_4 { 
+	background-color:rgba(121.99996992945671, 27.999998331069946, 249.00000035762787, 0.41999998688697815);
+	opacity:1;
+	border:1px solid rgba(122.00000032782555, 28.000000230968, 249.00000035762787, 1);
+	width:101px;
+	height:38px;
+	position:absolute;
+	left:1217px;
+	top:35px;
+	border-top-left-radius:50px;
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+	border-bottom-right-radius:50px;
+}
+#e15_5 { 
+	color:rgba(255, 255, 255, 0.949999988079071);
+	opacity:1;
+	width:64px;
+	height:17px;
+	position:absolute;
+	left:1244px;
+	top:43px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:18px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+#e16_6 { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	opacity:1;
+	width:101px;
+	height:38px;
+	position:absolute;
+	left:1095px;
+	top:35px;
+}
+#e16_7 { 
+	background-color:rgba(122.00000032782555, 28.000000230968, 249.00000035762787, 1);
+	opacity:1;
+	width:101px;
+	height:38px;
+	position:absolute;
+	left:1095px;
+	top:35px;
+	border-top-left-radius:50px;
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+	border-bottom-right-radius:50px;
+}
+#e16_8 { 
+	color:rgba(255, 255, 255, 0.949999988079071);
+	opacity:1;
+	width:61px;
+	height:22px;
+	position:absolute;
+	left:1115px;
+	top:43px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:18px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+#e54_23 { 
+	opacity:1;
+	width:318px;
+	height:552px;
+	position:absolute;
+	left:561px;
+	top:383px;
+}
+#e16_20 { 
+	opacity:1;
+	width:318px;
+	height:552px;
+	position:absolute;
+	left:561px;
+	top:383px;
+}
+#e15_9 { 
+	box-shadow:20px 15px 30px rgba(7.419724585488439, 7.406544517725706, 7.437532329931855, 0.5799999833106995);
+	background-color:rgba(37.00000159442425, 37.00000159442425, 37.00000159442425, 1);
+	opacity:1;
+	border:3px solid rgba(122.00000032782555, 28.000000230968, 249.00000035762787, 1);
+	width:318px;
+	height:552px;
+	position:absolute;
+	left:561px;
+	top:383px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+#e15_11 { 
+	color:rgba(255, 255, 255, 0.949999988079071);
+	opacity:1;
+	width:230px;
+	height:316px;
+	position:absolute;
+	left:604px;
+	top:606px;
+	text-align:left;
+	font-size:Symbol(figma.mixed)px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+#e16_11 { 
+	opacity:1;
+	width:312px;
+	height:206.3030242919922px;
+	position:absolute;
+	left:564px;
+	top:384.5930736064911px;
+}
+#e16_12 { 
+	opacity:1;
+	width:312px;
+	height:206.3030242919922px;
+	position:absolute;
+	left:564px;
+	top:384.5930736064911px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	background-image:url(images/erectangle_14.png);
+	background-repeat:no-repeat;
+}
+#e54_22 { 
+	opacity:1;
+	width:318px;
+	height:552px;
+	position:absolute;
+	left:99px;
+	top:383px;
+}
+#e16_22 { 
+	opacity:1;
+	width:318px;
+	height:552px;
+	position:absolute;
+	left:99px;
+	top:383px;
+}
+#e15_7 { 
+	box-shadow:20px 15px 30px rgba(7.419724585488439, 7.406544517725706, 7.437532329931855, 0.5799999833106995);
+	background-color:rgba(37.00000159442425, 37.00000159442425, 37.00000159442425, 1);
+	opacity:1;
+	border:3px solid rgba(122.00000032782555, 28.000000230968, 249.00000035762787, 1);
+	width:318px;
+	height:552px;
+	position:absolute;
+	left:99px;
+	top:383px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+#e16_21 { 
+	opacity:1;
+	width:238px;
+	height:257px;
+	position:absolute;
+	left:139px;
+	top:606px;
+}
+#e15_8 { 
+	color:rgba(255, 255, 255, 0.949999988079071);
+	opacity:1;
+	width:238px;
+	height:257px;
+	position:absolute;
+	left:139px;
+	top:606px;
+	text-align:left;
+	font-size:Symbol(figma.mixed)px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+#e16_17 { 
+	opacity:1;
+	width:312px;
+	height:206.00576782226562px;
+	position:absolute;
+	left:102px;
+	top:385.38616704940796px;
+}
+#e16_18 { 
+	opacity:1;
+	width:312px;
+	height:206.00576782226562px;
+	position:absolute;
+	left:102px;
+	top:385.38616704940796px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	background-image:url(images/erectangle_14.png);
+	background-repeat:no-repeat;
+}
+#e54_24 { 
+	opacity:1;
+	width:318px;
+	height:550px;
+	position:absolute;
+	left:1023px;
+	top:385px;
+}
+#e16_19 { 
+	opacity:1;
+	width:318px;
+	height:550px;
+	position:absolute;
+	left:1023px;
+	top:385px;
+}
+#e15_10 { 
+	box-shadow:20px 15px 30px rgba(7.419724585488439, 7.406544517725706, 7.437532329931855, 0.5799999833106995);
+	background-color:rgba(37.00000159442425, 37.00000159442425, 37.00000159442425, 1);
+	opacity:1;
+	border:3px solid rgba(122.00000032782555, 28.000000230968, 249.00000035762787, 1);
+	width:318px;
+	height:550px;
+	position:absolute;
+	left:1023px;
+	top:385px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+#e15_12 { 
+	color:rgba(255, 255, 255, 0.949999988079071);
+	opacity:1;
+	width:238.5px;
+	height:287.6513671875px;
+	position:absolute;
+	left:1062.75px;
+	top:606.2735137939453px;
+	text-align:left;
+	font-size:Symbol(figma.mixed)px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+#e16_15 { 
+	opacity:1;
+	width:312px;
+	height:205.55555725097656px;
+	position:absolute;
+	left:1026px;
+	top:386.58730161190033px;
+}
+#e16_16 { 
+	opacity:1;
+	width:312px;
+	height:205.55555725097656px;
+	position:absolute;
+	left:1026px;
+	top:386.58730161190033px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	background-image:url(images/erectangle_14.png);
+	background-repeat:no-repeat;
+}
+#e54_28 { 
+	background-color:rgba(37.00000159442425, 37.00000159442425, 37.00000159442425, 1);
+	opacity:1;
+	width:1239px;
+	height:193px;
+	position:absolute;
+	left:102px;
+	top:145px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+#e54_27 { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	opacity:1;
+	width:193px;
+	height:57px;
+	position:absolute;
+	left:162px;
+	top:263px;
+}
+#e54_29 { 
+	opacity:1;
+	width:193px;
+	height:57px;
+	position:absolute;
+	left:162px;
+	top:263px;
+}
+#e54_25 { 
+	background-color:rgba(121.99996992945671, 27.999998331069946, 249.00000035762787, 0.41999998688697815);
+	opacity:1;
+	border:1px solid rgba(160.00000566244125, 98.00000175833702, 240.00000089406967, 1);
+	width:193px;
+	height:57px;
+	position:absolute;
+	left:162px;
+	top:263px;
+	border-top-left-radius:50px;
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+	border-bottom-right-radius:50px;
+}
+#e54_26 { 
+	color:rgba(255, 255, 255, 0.949999988079071);
+	opacity:1;
+	width:68px;
+	height:20px;
+	position:absolute;
+	left:224px;
+	top:281px;
+	font-family:Almarai;
+	text-align:left;
+	font-size:18px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+#e54_30 { 
+	color:rgba(255, 255, 255, 0.949999988079071);
+	opacity:1;
+	width:283px;
+	height:80px;
+	position:absolute;
+	left:117px;
+	top:168px;
+	font-family:Almarai;
+	text-align:center;
+	font-size:24px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+#e54_31 { 
+	opacity:1;
+	width:924px;
+	height:193px;
+	position:absolute;
+	left:417px;
+	top:145px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	background-image:url(images/erectangle_20.png);
+	background-repeat:no-repeat;
+}
 }
